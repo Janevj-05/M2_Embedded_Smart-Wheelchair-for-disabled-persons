@@ -1,6 +1,6 @@
 # Design
 
-* System to be implemented is represnted in pictorial form
+* System to be implemented is represented in pictorial form
 ## File Structure
 | File  | Description                                    |              
 |:------- |:---------------------------------------------- |
