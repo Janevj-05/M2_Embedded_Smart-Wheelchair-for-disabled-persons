@@ -19,9 +19,9 @@ REFERENCE
 
 ## Features to be added in future
 
--   Integrate GPS routing system with this mobile application to guide the users to vacant position.
--   Ability to reserve their space in the garage from mobile application.
--   Integrate RFID tag operation with the mobile application for seamless payment facility and update the vehicle occupation within blink of an eye. (fully automated parking system).
+- Implementation of Artificial neural networks to build wheelchair with more precise and reliable system.
+- Optimization of user interface with easy operations
+
 
 ## SWOT Analysis
 ![SWOT Analysis](https://user-images.githubusercontent.com/59198753/144312035-975e82f6-b605-45c4-89f0-4884d6326967.PNG)
@@ -29,7 +29,6 @@ REFERENCE
 ## 4 W's & 1 H
 ![4w 1h](https://user-images.githubusercontent.com/59198753/142821633-8a7b353d-2478-4df5-90fd-c60b5e75610a.jpg)
 
-![Untitled presentation](https://user-images.githubusercontent.com/59198753/144306676-3f012e08-db75-40a0-8d70-b3a992ea1e1f.png)
 ## Detail Requirements
 
 ### High Level Requirements
