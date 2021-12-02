@@ -1,5 +1,5 @@
 
-
+#include <wheel.h>
 int main(void)
 {
     DDRC = 0xFF; //PORTB as Output
