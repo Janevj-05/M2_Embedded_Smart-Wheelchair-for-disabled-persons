@@ -35,9 +35,9 @@
 | `6_ImagesAndVideos`| Image and video of output execution |
 
 ## Challenges faced and how to overcome it
-1.   In this mini project we need to operate the vehicle manually with the help of joystick. We can overcome this manual work by using sensors to sense the human brain activities and opearte accordingly.
-2.   Payment option can also be facilitated using the same RFID tag which reduces your waiting time and helps you to forget long queues as digital payments are done within fraction of second.
-3.   Tracking of the vehicle and route finder using GPS Module can overcome the limitation of inability to track and retrieve data stored in the lost vehicle
+  1.   In this mini project we need to operate the vehicle manually with the help of joystick. We can overcome this manual work by using sensors to sense the human brain activities and opearte accordingly.
+  2.   Heavy components used to build electric wheelchairs can be replaced by this smart embedded wheelchair which is light in weight.
+  3.   Tracking of the vehicle and route finder using GPS Module can overcome the limitation of inability to track and retrieve data stored in the lost vehicle
 
 ## Learning Resources
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
