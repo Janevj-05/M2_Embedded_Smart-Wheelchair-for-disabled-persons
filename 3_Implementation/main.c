@@ -1,24 +1,49 @@
+#ifndef __AVR_ATmega328__
+    #define __AVR_ATmega328__
+#endif
 
-#include <wheel.h>
+#include<stdio.h>
+#include<util/delay.h>
+#include "adc.h"
+
+
 int main(void)
 {
-    DDRC = 0xFF; //PORTB as Output
-    while(1)
+    TCCR0A |= (1<<COM0A0) | (1<<WGM00) | (1<<WGM01);
+    TCCR0B |= (1<<CS00) | (1<<CS01);
+    InitADC();
+    uint16_t temp;
+    while (1)
     {
-        //Rotates Motor in Antilockwise 
-		PORTC = 0x01; //00000001
-		_delay_ms(4000);
-		
-		//Stops Motor
-		PORTC = 0x00; //00000000
-		_delay_ms(4000);
-		
-		//Rotates Motor in Clockwise
-		PORTC = 0x02; //00000010
-		_delay_ms(4000);
-		
-		//Stops Motor
-		PORTC = 0x03; //00000011
-		_delay_ms(4000);
+        temp=ReadADC(0);
+        _delay_ms(200);
     }
+    
+    if (ADCH >=00000001)
+    {
+    // TCCR0A |= (1<<COM0A0) | (1<<WGM00) | (1<<WGM01);
+    // TCCR0B |= (1<<CS00) | (1<<CS01); //64 prescalar
+
+
+ //   TCCR0B |= (1<<CS01); // 8
+//for motor set prescalar value of 64 or 256
+    DDRD |=(1<<PD6);
+
+    while (1)
+    {
+        OCR0A = 10;
+        _delay_ms(100);
+        OCR0A = 100;
+        _delay_ms(100);
+        OCR0A = 200;
+        _delay_ms(100);
+        OCR0A = 200;
+        _delay_ms(100);
+        OCR0A = 200;
+        _delay_ms(100);
+        OCR0A = 256;
+        _delay_ms(100);
+    }
+    }
+    return 0;
 }
