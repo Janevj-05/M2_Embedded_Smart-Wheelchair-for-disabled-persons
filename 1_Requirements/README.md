@@ -44,4 +44,4 @@ REFERENCE
 |-------|---------------------------------------------------|---------------------|
 | LLR01 |Initialise the wheelchair system                   |   Implemented       |
 | LLR02 |Controlling the wheelchair movement using joystick |   Implemented       |
-| LLR03 |Generating SOS while ine danger                    |   Future            |
+| LLR03 |Generating SOS while in danger                    |   Future            |
