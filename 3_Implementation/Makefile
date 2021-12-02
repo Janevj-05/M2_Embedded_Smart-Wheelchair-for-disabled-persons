@@ -1,10 +1,10 @@
-PROJ_NAME = Smart_Wheelchair
+PROJ_NAME = Project
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/wheel_utils.c
+src/adc.c
 
 # All header file paths
 INC = -I inc
