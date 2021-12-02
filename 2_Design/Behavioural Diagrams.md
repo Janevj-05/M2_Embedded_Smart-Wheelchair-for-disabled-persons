@@ -1,4 +1,3 @@
-
-## Behavioural diagram
+## Behavioural diagram of smart wheelchair
 
 
